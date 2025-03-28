@@ -1,0 +1,2 @@
+# Giuseppe_DelVecchio_EsercitazionePythonCorso
+esercitazione Python
