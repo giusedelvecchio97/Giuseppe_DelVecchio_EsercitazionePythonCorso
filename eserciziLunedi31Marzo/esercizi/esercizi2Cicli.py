@@ -81,11 +81,11 @@ lista2=[]
               
  # controllo quali siano i divisori primi dei due numeri e li salvo nelle liste1 e 2                          
 for i in range(1, int(num1**0.5) + 1):
-     if n % i == 0:  # Se i è divisore di n
+     if num1 % i == 0:  # Se i è divisore di n
             lista1.add(i)
         
 for i in range(1, int(num2**0.5) + 1):
- if n % i == 0:  # Se i è divisore di n
+ if num2 % i == 0:  # Se i è divisore di n
             lista2.add(i)
    # controllo se le liste hanno divisori in comune, altrimenti sono coprimi     
 if(lista1!=lista2):
