@@ -1,3 +1,6 @@
+
+import mysql.connector
+
 class Animale():
     
     def __init__(self,nome,eta):
