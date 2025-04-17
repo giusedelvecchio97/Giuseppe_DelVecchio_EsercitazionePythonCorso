@@ -83,3 +83,23 @@ print(arr[indici])
 indici=[0,5]
 print(arr[indici])   
 
+
+
+#linspace
+
+arr=np.linspace(0,1,5)   #da 0 a 1 con intervalli di 1/5 --> 0.25
+print(arr)
+
+
+#random
+random_arr=np.random.rand(3,3)  #matrice 3x3 con valori casuali
+
+print(random_arr)
+
+
+arr= np.array([1,2,3,4,5])
+sum_value=np.sum(arr)
+mean_value=np.mean(arr)
+std_val=np.std(arr)
+print(sum_value,mean_value,std_val)
+
